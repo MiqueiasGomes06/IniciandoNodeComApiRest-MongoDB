@@ -13,3 +13,5 @@ router.post("register", async (req, res) => {
     return res.staus(400).send({ error: "Registration failed " })
   }
 })
+
+modulo.exports = (app) => app.use("/auth", router)
