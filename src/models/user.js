@@ -23,3 +23,5 @@ const UserSchema = new nongoose.Schema({
 })
 
 const USer = mongoose.model("User", UserSchema)
+
+module.exports = User
